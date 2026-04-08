@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pokedex</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="script.js" defer></script>
+    <script src="./script.js" defer></script>
     <main class="main">
         <header class="header-home">
             <div class="container">
@@ -17,26 +17,25 @@
                 </div>
                 <div class="search-wrapper">
                     <div class="search-wrap">
-                        <img src="./assets/search.svg" alt="search icon" class="search-">
+                        <img src="./assets/search.svg" alt="search icon" class="search-icon">
                         <input type="text" class="search-input body3-fonts" placeholder="Search" id="search-input">
-                        <img src="assets/cross.svg" alt="cross icon" class="search-close-icon" id="search-close-icon">
+                        <img src="./assets/cross.svg" alt="clear search" class="search-close-icon" id="search-close-icon">
                     </div>
                     <div class="sort-wrapper">
-                        <div class="sort-wrap">
+                        <button class="sort-wrap" type="button" aria-label="Open sort options">
                             <img src="./assets/sorting.svg" alt="sorting" class="sort-icon">
-                        </div>
-                        <div class="filter-wrapper" >
+                        </button>
+                        <div class="filter-wrapper">
                             <p class="body2-fonts">Sort by:</p>
-                            <div class="filter-wrapper">
+                            <div class="filter-wrap">
                                 <div>
                                     <input type="radio" id="number" name="filters" value="number" checked>
                                     <label for="number" class="body3-fonts">Number</label>
                                 </div>
                                 <div>
                                     <input type="radio" name="filters" id="name" value="name">
-                                    <label for="name" class="body3-fonts" >Name</label>
+                                    <label for="name" class="body3-fonts">Name</label>
                                 </div>
-
                             </div>
                         </div>
                     </div>

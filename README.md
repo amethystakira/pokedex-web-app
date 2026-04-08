@@ -20,18 +20,7 @@ Main endpoints used/planned:
 - `https://pokeapi.co/api/v2/pokemon/{id}`
 - `https://pokeapi.co/api/v2/pokemon-species/{id}`
 
-## Planned Features
-
-- Display a list of Pokemon fetched from the API
-- Search Pokemon by name
-- Search Pokemon by number
-- Sort Pokemon results
-- View a detail page for each Pokemon
-- Show key information such as image, type, height, weight, and moves
-- Add improved filtering options in later milestones
-- Responsive design for desktop and mobile screens
-
-## Current Progress
+## Current Features
 
 The current project structure already includes:
 
@@ -90,6 +79,3 @@ Suggested repository name:
 
 `pokedex-web-app`
 
-## Author
-
-Created as part of Milestone 1: Project Setup and Basic Structure.

@@ -7,13 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <script src="./theme.js" defer></script>
     <script src="./script.js" defer></script>
     <main class="main">
         <header class="header-home">
             <div class="container">
-                <div class="logo-wrapper">
-                    <img src="./assets/pokeball.svg" alt="pokeball">
-                    <h1>Pokedex</h1>
+                <div class="header-top">
+                    <div class="logo-wrapper">
+                        <img src="./assets/pokeball.svg" alt="pokeball">
+                        <h1>Pokedex</h1>
+                    </div>
+                    <button
+                        class="theme-toggle"
+                        type="button"
+                        data-theme-toggle
+                        aria-label="Toggle dark and light mode"
+                    ></button>
                 </div>
                 <div class="search-wrapper">
                     <div class="search-wrap">

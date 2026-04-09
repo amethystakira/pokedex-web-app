@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <script src="./theme.js" defer></script>
     <script src="./pokemon-detail.js" defer></script>
     <main class="detail-main main">
         <header class="header">
@@ -19,8 +20,16 @@
                         <h1 class="name"></h1>
                     </div>
                 </div>
-                <div class="pokemon-id-wrap">
-                    <p class="body2-fonts"></p>
+                <div class="header-actions">
+                    <button
+                        class="theme-toggle theme-toggle-detail"
+                        type="button"
+                        data-theme-toggle
+                        aria-label="Toggle dark and light mode"
+                    ></button>
+                    <div class="pokemon-id-wrap">
+                        <p class="body2-fonts"></p>
+                    </div>
                 </div>
             </div>
         </header>
